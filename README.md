@@ -1,11 +1,11 @@
 # hlab-nxo-setup
-[![Docker](https://github.com/kazuki0824/hlab-nxo-setup/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/kazuki0824/hlab-nxo-setup/actions/workflows/docker-publish.yml)
-[![Check OpenRTP Installer](https://github.com/kazuki0824/hlab-nxo-setup/actions/workflows/openrtp_deployment_test.yml/badge.svg)](https://github.com/kazuki0824/hlab-nxo-setup/actions/workflows/openrtp_deployment_test.yml)
-[![graspPlugin Builder](https://github.com/kazuki0824/hlab-nxo-setup/actions/workflows/graspPlugin_integrity.yml/badge.svg)](https://github.com/kazuki0824/hlab-nxo-setup/actions/workflows/graspPlugin_integrity.yml)
+[![Docker](https://github.com/Osaka-University-Harada-Laboratory/hlab-nxo-setup/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/kazuki0824/hlab-nxo-setup/actions/workflows/docker-publish.yml)
+[![Check OpenRTP Installer](https://github.com/Osaka-University-Harada-Laboratory/hlab-nxo-setup/actions/workflows/openrtp_deployment_test.yml/badge.svg)](https://github.com/kazuki0824/hlab-nxo-setup/actions/workflows/openrtp_deployment_test.yml)
+[![graspPlugin Builder](https://github.com/Osaka-University-Harada-Laboratory/hlab-nxo-setup/actions/workflows/graspPlugin_integrity.yml/badge.svg)](https://github.com/kazuki0824/hlab-nxo-setup/actions/workflows/graspPlugin_integrity.yml)
 
 ## How to use
 ### Nextage, ROS, OpenRTP
-1. Clone this recursively ```git clone https://github.com/kazuki0824/hlab-nxo-setup.git --depth 1 --recursive```
+1. Clone this recursively ```git clone https://github.com/Osaka-University-Harada-Laboratory/hlab-nxo-setup.git --depth 1 --recursive```
    <!--Get some large contents by running ```cd hlab-nxo-setup && git lfs pull```-->
 2. Enter externals/, and then run ```./install_RTP.sh```
 3. Install ROS1 by following [this](INSTALL_ROS.md) instruction 
@@ -81,3 +81,5 @@ gnome-terminal --window -e "bash -c \"sleep 3; ./hlab-nxo-setup/externals/eclips
 #### Troubleshooter
 Use ```rtfind```
 
+## Author
+[kazuki0824](https://github.com/kazuki0824)
